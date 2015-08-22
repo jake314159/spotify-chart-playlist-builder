@@ -1,0 +1,6 @@
+*.pyc
+*~
+*.key
+spotify_password.txt
+spotify_username.txt
+*tmp*
