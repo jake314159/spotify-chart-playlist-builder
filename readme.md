@@ -6,9 +6,9 @@ Scrapes the UK official charts website for the top 100 songs and builds a spotif
 
 ## Usage
 
-First you will need to log into Spotify and sign up for a [libspotify](https://developer.spotify.com/technologies/libspotify/) account and get a key file. **You will need to have a paid account to do this.** Place your key file in the cwd and call it ``spotify_appkey.key''.
+First you will need to log into Spotify and sign up for a [libspotify](https://developer.spotify.com/technologies/libspotify/) account and get a key file. **You will need to have a paid account to do this.** Place your key file in the cwd and call it 'spotify_appkey.key'.
 
-Next make two text files called ``spotify_username.txt'' and ``spotify_password.txt'' and place these in the cwd. In these text files you should type your spotify username and password. 
+Next make two text files called 'spotify_username.txt' and 'spotify_password.txt' and place these in the cwd. In these text files you should type your spotify username and password. 
 
 It will have to be in plaintext (sorry about that), feel free to find a more secure way of doing it and make a pull request.
 
@@ -17,7 +17,7 @@ Next you need to make a playlist in the spotify ui and get the new playlist's UR
 Great now you are all set! Time to run the command below:
 ```bash
 python chartPlaylistBuilder.py 'spotify:user:username:playlist:XXXXXXXXXXXX'
-'''
+```
 where the argument is the playlist URI you got in the last step. Leave it for a few minutes to sort through all the data (good time to go get a cup of tea) and your all done.
 
 ## Why does it take so long? (Sales answer)
