@@ -10,7 +10,6 @@ class ChartPlaylistBuilder:
 		self.RATE_LIMIT_DELAY = 1		
 
 		self.playlist_uri = playlistURI
-		#'spotify:user:jakepc123:playlist:62IC0Tug3frZ71uPTnCthK'
 
 		username_file = open('spotify_username.txt', 'r')
 		username = username_file.read();
