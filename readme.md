@@ -20,6 +20,12 @@ python chartPlaylistBuilder.py 'spotify:user:username:playlist:XXXXXXXXXXXX'
 ```
 where the argument is the playlist URI you got in the last step. Leave it for a few minutes to sort through all the data (good time to go get a cup of tea) and your all done.
 
+## Dependencies
+
++ **libspotify**: Used to communicated with Spotify. Note this library is not python specific and should be installed before the next library. Also note that is is deprecated which may cause problems in the future.
++ **pyspotify**: The python wrapper for libspotify. Can be installed with pip ('pip install pyspotify')
++ **lxlm**: Used to parse the Chart websites HTML. Can also be installed with pip ('pip install lxlm')
+
 ## Why does it take so long? (Sales answer)
 
 The Chart Spotify Playlist Builder does a lot of very complex cross platform analysis of the hundreds high-dimensional data points which are involved in building and analysing the data sets required to successfully create a correct and pleasant musical arrangement. Despite many optimisations this takes some time and even on a modern high performance computing machine may take several minutes.
